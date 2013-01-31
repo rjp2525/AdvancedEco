@@ -1,0 +1,24 @@
+name: AdvancedEco
+main: me.rjp2525.adveco.AdvancedEco
+depend: [Vault]
+database: false
+description: Advanced flatfile (temporarily) economy management plugin with mob rewards.
+version: 0.5.5
+load: POSTWORLD
+authors: [rjp2525]
+commands:
+  money:
+    aliases: [ae]
+    description: AdvancedEco interface.
+    usage: /<command> [help:pay:give:set:reload] [player] [amount]
+permissions:
+  AdvancedEco.user:
+    description: Players can use "/money" and "/money help."
+  AdvancedEco.pay:
+    description: Players can use "/money pay."
+  AdvancedEco.give:
+    description: Players can use "/money give."
+  AdvancedEco.set:
+    description: Players can use "/money set."
+  AdvancedEco.reload:
+    description: Players can use "/money reload."
